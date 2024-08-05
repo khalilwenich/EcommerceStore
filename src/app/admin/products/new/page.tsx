@@ -7,6 +7,6 @@ export default function NewProductPage(){
     <>
        <PageHeader>Add Product</PageHeader>
 
-       <ProductForm/>
+       <ProductForm onProductAdded={undefined}/>
     </>)
 }
